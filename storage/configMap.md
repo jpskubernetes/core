@@ -2,7 +2,7 @@
 
 A volume is a directory that is accessible to containers in a pod. Volumes provide a way for containers to store and access data, and they can be used to share data between containers in the same pod.
 
-![alt text](image.png)
+![volumeMount](image.png)
 
 
 ```yaml
@@ -25,3 +25,5 @@ spec:
 
 
 ```
+
+![volume-mount-drawback](volume-mount-drawback.png)
