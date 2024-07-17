@@ -15,3 +15,15 @@ Kubernetes consists of two main architectural components: the control plane and 
 - Scheduler (kube-scheduler): Responsible for scheduling pods (containers) on worker nodes based on resource availability, pod requirements, and scheduling policies.
 - Controller Manager (kube-controller-manager): Runs a set of controllers that continuously monitor the cluster's state and ensure it matches the desired state defined in the API server. These controllers manage various aspects like pod lifecycle, service endpoints, replica sets, and more.
 - Cloud Controller Manager (Optional): Manages interaction with cloud providers for resources like load balancers, volumes, and network policies (if running on a cloud platform).
+
+![kubernetes architecture](image-1.png)
+
+- Nodes
+- Communication between Nodes and the Control Plane
+- Controllers
+- Leases
+- Cloud Controller Manager
+- About cgroup v2
+- Container Runtime Interface (CRI)
+- Garbage Collection
+- Mixed Version Proxy
