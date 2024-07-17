@@ -15,3 +15,23 @@
 There are two main ways tmo have added to the <API Server>:
 1. The <kubelet> on node self-registers to the control panel.
 2. Manually add a Node object.
+
+## Node name uniqueness
+
+## Self-registration of <Nodes>
+
+## Manual Node administration
+
+## Node status
+
+## Node heartbeats
+
+## Node controller 
+
+### Rate limits on eviction
+
+## Resource capacity tracking
+
+## Node topology
+
+## Swap memory management
