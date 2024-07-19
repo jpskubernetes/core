@@ -28,3 +28,8 @@ spec:
 
 ![volume-mount-drawback](volume-mount-drawback.png)
 
+> Note:
+1. You must create a ConfigMap before you can use it.
+2. A ConfigMap is always mounted as readOnly.
+3. A container using a ConfigMap as a subPath volume mount will not receive ConfigMap updates.
+4. Text data is exposed as files using the UTF-8 character encoding. For other character encodings, use binaryData.
